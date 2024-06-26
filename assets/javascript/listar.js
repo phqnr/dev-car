@@ -7,12 +7,6 @@ function exibirVeiculos() {
   const listarVeiculos = document.getElementById('listarVeiculos');
   listarVeiculos.innerHTML = ''; // Limpa a lista antes de atualizá-la
 
-  // Verifica se o vetor de veículos está vazio
-  if (veiculosArr.length === 0) {
-    alert('Nenhum veículo cadastrado. Por favor, cadastre um veículo.');
-    return;
-  }
-
   // Vetor de veículos
   veiculosArr.forEach(veiculo => {
     const exibirVeiculo = document.createElement('div'); // Cria uma div para exibir os veículos cadastrados
