@@ -68,5 +68,5 @@ function removerVeiculo() {
 // Função para encerrar o sistema e direcionar o usuário à tela de login
 function sair() {
   alert("Programa encerrado!");
-  location.href = 'https://phqnr.github.io/dev-car/';
+  location.href = 'https://phqnr.github.io/dev-car/index.html';
 }
