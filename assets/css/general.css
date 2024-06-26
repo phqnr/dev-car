@@ -1,0 +1,14 @@
+:root {
+
+  --strong-blue: #232c35;
+  --dark-blue: #45515f;
+  --medium-blue: #3a5361;
+  --light-blue: #50727B;
+  --light-green: #78A083;
+  --bg-color: #ffffff;
+
+  /* fontes */
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

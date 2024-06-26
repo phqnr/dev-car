@@ -1,0 +1,156 @@
+@import url(general.css);
+
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+}
+
+body {
+  background-color: var(--bg-color);
+
+  /* fontes */
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.interface {
+  height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left-side {
+  background-color: var(--dark-blue);
+  width: 60%;
+
+  background-image: url(../images/login.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: var(--bg-color);
+}
+
+.login-descricao {
+  margin-top: 34%;
+  margin-left: 15%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  letter-spacing: 5px;
+}
+
+h1:hover {
+  transform: scale(1.2);
+  transform-origin: left top;
+  cursor: pointer;
+  text-shadow: -10px -5px 5px var(--strong-blue);
+  padding-bottom: 1rem;
+}
+
+h1 i {
+  margin-right: 1.25rem;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.right-side {
+  background-color: var(--bg-color);
+  width: 40%;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30%;
+}
+
+h2 {
+  font-size: 3rem;
+  color: var(--dark-blue);
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+
+h2:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+h2>i {
+  font-size: 3rem;
+  padding-right: 1.25rem;
+  color: var(--dark-blue);
+}
+
+label {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+label>i {
+  font-size: 1.75rem;
+  margin-right: .5rem;
+}
+
+input {
+  background-color: var(--bg-color);
+  width: 20rem;
+  border: none;
+  border-bottom: 1px solid #3a5361;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 3px solid var(--medium-blue);
+}
+
+button {
+  margin: 2.5rem 25%;
+  font-size: 1.25rem;
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: #50727b00;
+  color: var(--medium-blue);
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: .1s;
+  outline: none;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  border-radius: 10px;
+  background-color: var(--medium-blue);
+  color: var(--bg-color);
+  box-shadow: 3px 8px 8px var(--dark-blue);
+  transform: scale(1.1);
+  transition: 0.2s;
+  outline: none;
+}
